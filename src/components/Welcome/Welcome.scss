@@ -1,0 +1,28 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1050px;
+  text-align: center;
+
+  .title {
+    font-weight: 400px;
+    font-size: 32px;
+    color: white;
+  }
+
+  .description {
+    font-weight: 300px;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    background-color: #eeebe3;
+    font-weight: 400px;
+    font-size: 16px;
+  }
+}

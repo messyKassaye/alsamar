@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import './base/fonts';
+@import './utils/utils';
+@import '../components/HeaderSection/HeaderSection.scss';
+@import '../components/HeaderNavBar/HeaderNavBar.scss';
+@import '../components/Button/Button.scss';
+@import '../components/PaginationBullet/PaginationBullet.scss';
+@import '../components/Welcome/Welcome.scss';
