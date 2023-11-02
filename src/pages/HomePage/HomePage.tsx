@@ -1,12 +1,12 @@
 import HeaderSection from '../../components/HeaderSection/HeaderSection';
-import background from '../../assets/background.png';
-import gallery from '../../assets/gallery.png';
-import about from '../../assets/about.png';
+import welcome from '../../assets/welcome.svg';
+import gallery from '../../assets/gallery.svg';
+import about from '../../assets/about.svg';
 
 import { Welcome } from '../../components/Welcome/Welcome';
 
 export const HomePage = () => {
-  const images = [background, gallery, about];
+  const images = [welcome, gallery, about];
   const children = [
     <Welcome
       key={'1'}
