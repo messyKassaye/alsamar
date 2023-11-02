@@ -4,6 +4,7 @@ import gallery from '../../assets/gallery.svg';
 import about from '../../assets/about.svg';
 
 import { Welcome } from '../../components/Welcome/Welcome';
+import Studio from '../../components/Studio/Studio';
 
 export const HomePage = () => {
   const images = [welcome, gallery, about];
@@ -18,8 +19,9 @@ export const HomePage = () => {
     <Welcome key={'3'} description="FIND OUT ABOUT US" btnText="get to know Alsamar" />,
   ];
   return (
-    <div>
+    <div className="home-page-container">
       <HeaderSection images={images} children={children} />
+      <Studio />
     </div>
   );
 };

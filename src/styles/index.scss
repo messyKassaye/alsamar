@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @import './base/fonts';
 @import './utils/utils';
 @import '../components/HeaderSection/HeaderSection.scss';
@@ -13,3 +17,4 @@
 @import '../components/Welcome/Welcome.scss';
 @import '../components/GenericSwiper/spinner_wrapper';
 @import '../components/GenericSwiper/generic_spinner';
+@import '../components/Studio/Studio.scss';
