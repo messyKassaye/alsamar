@@ -16,26 +16,4 @@
       text-transform: uppercase;
     }
   }
-
-  .studio-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 120px;
-
-    .title {
-      font-weight: 300px;
-      font-size: 64px;
-      width: 620px;
-      color: white;
-      text-transform: uppercase;
-    }
-  }
-
-  .button-container {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 20px;
-  }
 }

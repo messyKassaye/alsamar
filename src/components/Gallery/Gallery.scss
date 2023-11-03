@@ -1,0 +1,39 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-color: black;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+    width: 100%;
+
+    .title {
+      font-weight: 300px;
+      font-size: 64px;
+      width: 620px;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  .gallery-list {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 50px;
+  }
+}
